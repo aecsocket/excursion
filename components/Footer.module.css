@@ -1,0 +1,21 @@
+.footer {
+  margin: 0 40px;
+  display: flex;
+  justify-content: center;
+  color: var(--footer-fg);
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 960px;
+  padding: 40px 0;
+  border-width: 1px;
+  border-style: solid none none none;
+  border-color: var(--footer-sep);
+  display: flex;
+  justify-content: center;
+}
+
+.item {
+  margin: 0 12px;
+}

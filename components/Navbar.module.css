@@ -1,0 +1,35 @@
+.nav {
+  display: flex;
+  justify-content: center;
+  color: var(--nav-fg);
+  background: var(--nav-bg);
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 960px;
+  padding: 16px 32px;
+  display: flex;
+}
+
+.main {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+}
+
+.item {
+  padding: 0 12px;
+  font-weight: 600;
+}
+
+.searchBox {
+  width: 240px;
+  color: var(--search-fg);
+  background: var(--search-bg);
+}
