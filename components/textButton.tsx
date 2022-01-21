@@ -1,4 +1,4 @@
-import { FC } from "react";
+import React, { FC } from "react";
 import styles from "./TextButton.module.css";
 
 const TextButton: FC = ({ children }) => {
@@ -7,6 +7,6 @@ const TextButton: FC = ({ children }) => {
             {children}
         </div>
     );
-}
+};
 
 export default TextButton;

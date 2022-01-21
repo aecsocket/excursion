@@ -1,4 +1,4 @@
-import { FC } from "react";
+import React, { FC } from "react";
 import Navbar from "./navbar";  
 import Footer from "./footer";
 
@@ -10,6 +10,6 @@ const Layout: FC = ({ children }) => {
             <Footer />
         </>
     );
-}
+};
 
 export default Layout;

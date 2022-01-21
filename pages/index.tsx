@@ -1,7 +1,8 @@
-import type { NextPage } from 'next'
-import Head from 'next/head'
-import styles from '../styles/Home.module.css'
-import DiscreetButton from '../components/discreetButton';
+import React from "react";
+import type { NextPage } from "next";
+import Head from "next/head";
+import styles from "../styles/Home.module.css";
+import DiscreetButton from "../components/discreetButton";
 
 const Home: NextPage = () => {
     const sourceUrl = process.env.SOURCE_URL;
@@ -53,7 +54,7 @@ const Home: NextPage = () => {
                 </div>
             </div>
         </main>
-    )
+    );
 };
 
 export default Home;

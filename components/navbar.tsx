@@ -1,3 +1,4 @@
+import React from "react";
 import Link from "next/link";
 import styles from "./Navbar.module.css";
 import Icon from "../public/icon.svg";
@@ -52,6 +53,6 @@ const Navbar = () => {
             </div>
         </nav>
     );
-}
+};
 
 export default Navbar;

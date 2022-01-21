@@ -1,4 +1,4 @@
-import { FC } from "react";
+import React, { FC } from "react";
 import styles from "./PrimaryButton.module.css";
 
 const PrimaryButton: FC = ({ children }) => {
@@ -7,6 +7,6 @@ const PrimaryButton: FC = ({ children }) => {
             {children}
         </div>
     );
-}
+};
 
 export default PrimaryButton;

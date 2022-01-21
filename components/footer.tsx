@@ -1,3 +1,4 @@
+import React from "react";
 import Link from "next/link";
 import styles from "./Footer.module.css";
 
@@ -15,6 +16,6 @@ const Footer = () => {
             </div>
         </footer>
     );
-}
+};
 
 export default Footer;

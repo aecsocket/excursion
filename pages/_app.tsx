@@ -1,6 +1,7 @@
+import React from "react";
 import App from "next/app";
 import Layout from "../components/layout";
-import "../styles/globals.css"
+import "../styles/globals.css";
 
 export default class ExcursionApp extends App {
     render() {

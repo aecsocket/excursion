@@ -1,4 +1,4 @@
-import { FC } from "react";
+import React, { FC } from "react";
 import styles from "./IconButton.module.css";
 
 const IconButton: FC = ({ children }) => {
@@ -7,6 +7,6 @@ const IconButton: FC = ({ children }) => {
             {children}
         </div>
     );
-}
+};
 
 export default IconButton;
