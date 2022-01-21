@@ -1,22 +1,19 @@
 :root {
   --white: rgb(250, 250, 250);
-  --theme: #094346;
+  --theme: #227c9d;
+  --theme-contrast: var(--white);
   --primary-fg: var(--white);
   --primary-bg: #2ea44f;
   --btn-discreet-bg: #888888;
   --active: #58a6ff;
 
-  --nav-fg: var(--white);
-  --nav-bg: var(--theme);
-  --search-fg: var(--white);
-  --search-bg: #0a3435;
   --footer-fg: gray;
 
   --fg: black;
   --bg: var(--white);
   --accent: #0969da;
-  --secondary-fg: var(--white);
-  --secondary-bg: darkslategray;
+  --nav-shadow: rgba(0, 0, 0, 0.5);
+  --nav-search-bg: #cccccc;
   --footer-sep: #d0d7de;
 }
 
@@ -25,8 +22,8 @@
     --fg: var(--white);
     --bg: #0d1117;
     --accent: #58a6ff;
-    --secondary-fg: black;
-    --secondary-bg: var(--white);
+    --nav-shadow: rgba(255, 255, 255, 0.2);
+    --nav-search-bg: #0a3435;
     --footer-sep: #30363d;
   }
 }
@@ -91,34 +88,6 @@ button {
   padding: 6px 10px;
   white-space: nowrap;
   cursor: pointer;
-}
-
-label.text {
-  width: 240px;
-  margin: 0 10px;
-  padding: 3px 10px;
-  border: 1px solid transparent;
-  border-radius: 5px;
-  display: block;
-}
-
-label.text:focus-within {
-  border: 1px solid var(--active);
-}
-
-input.text {
-  border: none;
-  outline: none;
-  color: inherit;
-  background: transparent;
-  font-family: inherit;
-  font-size: inherit;
-  font-weight: inherit;
-}
-
-input.text::placeholder {
-  color: inherit;
-  opacity: 0.5;
 }
 
 @media screen and (max-width: 768px) {

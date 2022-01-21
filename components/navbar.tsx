@@ -5,8 +5,8 @@ import Icon from "../public/icon.svg";
 import IconButton from "./iconButton";
 import TextButton from "./textButton";
 import PrimaryButton from "./primaryButton";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSearch } from "@fortawesome/free-solid-svg-icons";
+import TextInput from "./textInput";
 
 const Navbar = () => {
     return (
@@ -22,15 +22,11 @@ const Navbar = () => {
                     </div>
 
                     <form>
-                        <label className={`ifLarge text ${styles.searchBox}`}>
-                            <input type="text" className={`text ${styles.searchInput}`} placeholder="Search" />
-                        </label>
+                        <TextInput className={`ifLarge ${styles.search}`} placeholder="Search" />
                     </form>
 
                     <div className={`ifSmall ${styles.item}`}>
-                        <IconButton>
-                            <FontAwesomeIcon icon={faSearch} className={styles.searchIcon} />
-                        </IconButton>
+                        <IconButton icon={faSearch} className={styles.searchIcon} />
                     </div>
                 </div>
                 <div className={styles.user}>

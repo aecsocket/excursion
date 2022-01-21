@@ -2,8 +2,8 @@
   min-height: 480px;
   display: flex;
   justify-content: center;
-  color: white;
-  background: darkslategray;
+  color: var(--theme-contrast);
+  background: var(--theme);
 }
 
 .title {
@@ -49,6 +49,5 @@
   .section:nth-child(even) {
     position: relative;
     left: 40%;
-    text-align: right;
   }
 }

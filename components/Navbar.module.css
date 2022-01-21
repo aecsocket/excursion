@@ -1,9 +1,12 @@
 .nav {
+  position: sticky;
+  top: 0;
   display: flex;
   justify-content: center;
-  color: var(--nav-fg);
-  fill: var(--nav-fg);
-  background: var(--nav-bg);
+  color: var(--fg);
+  fill: var(--fg);
+  background: var(--bg);
+  box-shadow: 0 4px 10px 0 var(--nav-shadow);
 }
 
 .wrapper {
@@ -33,12 +36,12 @@
   display: block;
 }
 
-.searchBox {
-  width: 240px;
-  color: var(--search-fg);
-  background: var(--search-bg);
+.icon:hover {
+  fill: var(--theme);
 }
 
-.searchIcon {
-  font-size: 20px;
+.search {
+  width: 240px;
+  color: var(--fg);
+  background: var(--nav-search-bg);
 }

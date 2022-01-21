@@ -8,3 +8,7 @@
   color: var(--active);
   fill: var(--active);
 }
+
+.icon {
+  display: block;
+}
