@@ -28,9 +28,9 @@ const Navbar = () => {
                     </form>
 
                     <div className={`ifSmall ${styles.item}`}>
-                        <button className="btn icon">
+                        <IconButton>
                             <FontAwesomeIcon icon={faSearch} className={styles.searchIcon} />
-                        </button>
+                        </IconButton>
                     </div>
                 </div>
                 <div className={styles.user}>
