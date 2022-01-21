@@ -2,13 +2,14 @@
   display: flex;
   justify-content: center;
   color: var(--nav-fg);
+  fill: var(--nav-fg);
   background: var(--nav-bg);
 }
 
 .wrapper {
   width: 100%;
-  max-width: 960px;
-  padding: 16px 32px;
+  max-width: 1280px;
+  padding: 16px 8px;
   display: flex;
 }
 
@@ -28,8 +29,16 @@
   font-weight: 600;
 }
 
+.icon {
+  display: block;
+}
+
 .searchBox {
   width: 240px;
   color: var(--search-fg);
   background: var(--search-bg);
+}
+
+.searchIcon {
+  font-size: 20px;
 }

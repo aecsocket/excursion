@@ -1,5 +1,5 @@
 .footer {
-  margin: 0 40px;
+  margin: 20px 40px;
   display: flex;
   justify-content: center;
   color: var(--footer-fg);

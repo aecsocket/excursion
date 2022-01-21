@@ -1,0 +1,8 @@
+.btn {
+  color: var(--fg);
+  background: transparent;
+}
+
+.btn:hover {
+  color: var(--active);
+}

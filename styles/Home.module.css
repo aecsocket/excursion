@@ -1,13 +1,54 @@
-.column {
-  width: 100%;
+.jumbotron {
+  min-height: 480px;
+  display: flex;
+  justify-content: center;
+  color: white;
+  background: darkslategray;
+}
+
+.title {
+  font-size: 64px;
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 48px;
+  }
+}
+
+.subtitle {
+  font-size: 24px;
+}
+
+.wrapper {
   display: flex;
   justify-content: center;
 }
 
-.section {
+.column {
   width: 100%;
+  max-width: 960px;
+  padding: 0 32px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
   max-width: 960px;
   padding: 0 32px;
 }
 
+@media (min-width: 768px) {
+  .section {
+    width: 60%;
+  }
 
+  .section:nth-child(even) {
+    position: relative;
+    left: 40%;
+    text-align: right;
+  }
+}

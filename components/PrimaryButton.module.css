@@ -1,0 +1,10 @@
+.btn {
+  border: 0px solid;
+  border-radius: 5px;
+  color: var(--primary-fg);
+  background: var(--primary-bg);
+}
+
+.btn:hover {
+  filter: brightness(80%);
+}

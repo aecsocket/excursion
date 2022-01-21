@@ -9,9 +9,9 @@ const Footer = () => {
                     Docs
                 </a></Link>
 
-                <Link href="/source"><a className={styles.item}>
+                <a className={styles.item} href={process.env.SOURCE_URL}>
                     Source
-                </a></Link>
+                </a>
             </div>
         </footer>
     );

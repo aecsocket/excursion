@@ -1,0 +1,14 @@
+.btn {
+  border-width: 3px;
+  border-style: none none solid none;
+  border-color: var(--btn-discreet-bg);
+  color: var(--fg);
+}
+
+.btn:hover {
+  border-color: var(--active);
+}
+
+.icon {
+  margin-left: 6px;
+}
