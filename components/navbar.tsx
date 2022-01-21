@@ -13,9 +13,9 @@ const Navbar = () => {
         <nav className={styles.nav}>
             <div className={styles.wrapper}>
                 <div className={styles.main}>
-                    <div className={styles.item}>
+                    <div>
                         <Link href="/"><a className="block">
-                            <IconButton>
+                            <IconButton className={styles.iconButton}>
                                 <Icon className={styles.icon} width={32} />
                             </IconButton>
                         </a></Link>
@@ -25,12 +25,12 @@ const Navbar = () => {
                         <TextInput className={`ifLarge ${styles.search}`} placeholder="Search" />
                     </form>
 
-                    <div className={`ifSmall ${styles.item}`}>
+                    <div className="ifSmall">
                         <IconButton icon={faSearch} className={styles.searchIcon} />
                     </div>
                 </div>
                 <div className={styles.user}>
-                    <div className={styles.item}>
+                    <div>
                         <Link href="/logIn"><a>
                             <TextButton>
                                 Log In
@@ -38,7 +38,7 @@ const Navbar = () => {
                         </a></Link>
                     </div>
 
-                    <div className={styles.item}>
+                    <div>
                         <Link href="/register"><a>
                             <PrimaryButton>
                                 Register
